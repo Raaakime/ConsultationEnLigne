@@ -1,0 +1,26 @@
+ #sidebar {
+     width: 250px;
+     min-height: 100vh;
+     transition: all 0.3s ease;
+ }
+
+ #content {
+     margin-left: 250px;
+     transition: all 0.3s ease;
+ }
+
+ #sidebar.collapsed {
+     margin-left: -250px;
+ }
+
+ #content.collapsed {
+     margin-left: 0;
+ }
+
+ #toggleSidebar {
+     transition: transform 0.3s ease;
+ }
+
+ #toggleSidebar.rotate {
+     transform: rotate(180deg);
+ }

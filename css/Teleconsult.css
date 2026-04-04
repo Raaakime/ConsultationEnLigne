@@ -1,0 +1,257 @@
+* {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/intli.jpg);
+  background-position: center;
+  /* Positionnement de l'image au centre */
+  background-size: cover;
+  background-attachment: fixed;
+  /* L'image reste fixe lors du défilement */
+  overflow-x: hidden;
+
+}
+
+/*bacground color de la section 4*/
+.sec4 {
+  position: relative;
+  color: white;
+  height: 17.5vw;
+  font-weight: bolder;
+  line-height: 30px;
+
+
+}
+
+.bckg {
+  position: absolute;
+  background-color: rgb(47, 70, 247);
+  width: 100%;
+  height: 27.8vw;
+  opacity: 0.5;
+  z-index: 4;
+
+
+}
+
+@media screen and (max-width: 1278px) and (min-width: 1050px) {
+  .bckg {
+    height: 29.3vw;
+  }
+
+}
+
+@media screen and (max-width:1050px) and (min-width: 1000px) {
+  .bckg {
+    height: 29.8vw;
+  }
+}
+
+@media screen and (max-width:1000px) and (min-width: 890px) {
+  .bckg {
+    height: 31vw;
+  }
+}
+
+@media screen and (max-width:890px) and (min-width: 730px) {
+  .bckg {
+    height: 33vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+
+  }
+}
+
+@media screen and (max-width:730px) and (min-width: 600px) {
+  .bckg {
+    height: 41vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 25vw;
+
+  }
+
+}
+
+@media screen and (max-width:600px) and (min-width: 570px) {
+  .bckg {
+    height: 47vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 30vw;
+
+  }
+
+}
+
+@media screen and (max-width:570px) and (min-width: 525px) {
+  .bckg {
+    height: 52vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 34vw;
+
+  }
+
+}
+
+
+@media screen and (max-width:525px) and (min-width: 486px) {
+  .bckg {
+    height: 57vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 37vw;
+
+  }
+
+}
+
+
+@media screen and (max-width:486px) and (min-width: 460px) {
+  .bckg {
+    height: 60vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 39vw;
+
+  }
+
+}
+
+
+@media screen and (max-width:460px) and (min-width: 424px) {
+  .bckg {
+    height: 67vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 45vw;
+
+  }
+
+}
+
+
+@media screen and (max-width:424px) and (min-width: 410px) {
+  .bckg {
+    height: 76vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 52vw;
+
+  }
+
+}
+
+
+@media screen and (max-width: 410px) and (min-width: 400px) {
+  .bckg {
+    height: 81vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 60vw;
+
+  }
+
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 370px) {
+  .bckg {
+    height: 86vw;
+
+
+  }
+
+  .sec4 {
+    line-height: 20px;
+    height: 63vw;
+
+  }
+
+}
+
+
+
+
+
+
+
+/*section principale de mon page*/
+.secprinci {
+  background-color: white;
+
+}
+
+/*prim sec*/
+.sec {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+
+/*Taille d'image du section1*/
+
+/*Premier text */
+
+
+
+/*Taille seconde image*/
+
+.w1 {
+  width: 450px;
+}
+
+
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 35px;
+  margin: 40px 8px;
+}

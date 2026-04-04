@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PageAccueil</title>
+    <!--Link du style-->
+    <link rel="stylesheet" href="css/Accueil.css" />
+      <!--Link du animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <!--Link du bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+            <!--Link des icons awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  </head>
+  <body>
+<!--Début du header -->
+    <header class=" pb-1 fixed-top fw-bold">
+      <!--Début du nav-->
+      <nav class="navbar navbar-expand-lg text-center col-12 col-md-12 col-lg-12 ">
+        <!--Mon logo-->
+        <img class="ms-5" style="width: 60px; height: 60px" src="images/logo.png" />
+         <h5 class="">
+           <a href="index.html" class="text-white fw-bolder text-decoration-none">AKN <span class="text-danger fw-bold">MédiConnect</span></a>
+         </h5>
+          <!--FinMon logo-->
+        <div style="margin-left: 100px" class="container-fluid text-center">
+          <!--Lien du page accueil & le button toggler-->
+           <a class="navbar-brand text-white link-primary" href="index.html">Accueil</a>
+          <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+          </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--Les liens-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item dropdown">
+                <a class="nav-link link-primary dropdown-toggle text-white fw-bold" aria-current="page" href="#" data-bs-toggle="dropdown">Services</a>
+                 <ul class="dropdown-menu">
+                   <li>
+                    <a class="dropdown-item bg-white text-primary text-center" href="Gestion_de_patient/gestion.php">Gestion des patients</a>
+                   </li>
+
+                   <li>
+                    <a class="dropdown-item bg-white text-primary text-center" href="Téléconsult/Teleconsultation.php">Consultation en ligne</a>
+                   </li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link link-primary dropdown-toggle fw-bold text-white" href="" role="button" data-bs-toggle="dropdown"> Avis et Contact </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-primary bg-white text-center" href="Avis/avis.php">Avis et notes</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item text-primary bg-white text-center" href="Page_de_contact/Page_de_contact.php">Contact-SN</a>
+                  </li>
+
+                </ul>
+                  <!--Lien du page admin-->
+                   <li>
+                      <a href="partie_admin/admin.php" class="nav-link link-danger text-decoration-none text-primary fw-bold"> Admin Connexion</a>
+                  </li>
+              </li>
+            </ul>
+              <!--Mes deux buttons-->
+                     <a href="Page_connexion/Formulaire_de_connexion.php" class="btn me-4 fw-bold" type="submit" style="background:white; color: #3A7BD5; border: none;">Connexion</a>
+                     <a href="A propos/apropos.php" class="text-decoration-none me-3 p-2 rounded" style="background: transparent; color: #3A7BD5; border: 2px solid #3A7BD5; border-radius: 8px;">Plus d'information</a>
+          </div>
+        </div>
+      </nav>
+      <!--Fin du nav-->
+    </header>
+  <!--Fin du header -->
+
+
+  <!--Début du mon page principale-->
+    <main>
+      <!--Section hero-->
+      <section class="pt-5" style="margin-top: 80px">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-12">
+                 <img src="images/istockphoto-2180765842-612x612-removebg-preview.png" class="img-responsive text-start w-75" />
+            </div>
+
+            <div class="pt-5 col-sm-12 col-md-12 col-lg-6 col-12">
+               <h1 style=" color: #141561; font-weight:bolder;" class="">Bienvenue notre service médical virtuel</h1>
+                  <p class="text-hero"> Notre service est un espace numérique qui aide et permet les patiants de faire leur consultation et prendre leur rendez-vous a travers cette plateforme </p>
+
+               <button class="btn p-2" style="background-color: #141561; border: none;" type="submit">
+                  <a class="text-white text-decoration-none" href="Option_sur_les_compte/Option.html">Inscrivez-vous</a>
+               </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Fin section hero-->
+
+      <!--Section des articles -->
+      <section class="">
+        <div class="container-fluid text-center pt-5 mt-5" id="gestion_des_patient">
+          <div class="row justify-content-center mt-5">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="col-2 bg-white m-2 secv"
+                 style=" width: 250px; height: 310px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); border-radius: 10px; border-left: solid 6px rgb(238, 16, 16);">
+              <div><img src="images/Group-2311.svg " /></div>
+                  <h3>Prise de rendez-vous</h3>
+                  <p class="pt-4"> Le patient a une possiblitée de prendre une rendez-vous avec son médecin sans aucun contrainte</p>
+            </div>
+
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="col-2 bg-white m-2 w-10 secv"
+                  style="width: 250px; height: 310px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); border-radius: 10px; border-left: solid 6px rgb(238, 16, 16);">
+              <div><img src="images/Group-2310.svg" /></div>
+                 <h3>Médecins disponibles</h3>
+                 <p class="pt-4">Vous aurez listes des médecins disponibles a votre niveau, quand le patient décide de prendre une rendez-vous il aura une listes des médecins</p>
+            </div>
+
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="col-2 bg-white m-2 secv"
+                 style=" width: 250px; height: 310px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); border-radius: 10px; border-left: solid 6px rgb(238, 16, 16);">
+              <div>
+                <img src="images/medicine-book-svgrepo-com.svg" width="80px" />
+              </div>
+                  <h3>Dossiers médicaux</h3>
+                  <p class="pt-3"> Les Patients auront un accés sur leurs dossiers médicaux, le médecin pourra consulter les dossiers médicaux de ses patients</p>
+            </div>
+
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="col-2 bg-white m-2 secv"
+                 style="width: 250px; height: 310px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); border-radius: 10px; border-left: solid 6px rgb(238, 16, 16);">
+              <div><img src="images/petri-dish-svgrepo-com.svg" width="80px" /></div>
+                  <h3>Téléchargement des documents</h3>
+                  <p>Aprés accéder ses dossiers le patient a une possiblité de télécharger ses dossiers médicaux ou même l'ordonnance écrie par son médecin</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top: 90px" id="conditions">
+        <div class="container">
+          <div class="row justify-content-center gap-5 ">
+            <div data-aos="fade-up" data-aos-duration="3000" class="col-10 col-md-6 col-lg-3 mb-4  sect_option ">
+              <div class="secv pt-2"><img src="images/download.svg" /></div>
+                  <h3 class="mt-2">Téléconsultation</h3>
+                   <p class="pt-5">Téléconsultation ou Télémédecine est une espace virtuel qui permet le patient d'avoir une contact direct avec son médecin sans se dépalacer a traver des appels vidéo ou des messages textuels en chat ou des messages vocaux ...</p>
+              </div>
+             <div data-aos="fade-up" data-aos-duration="3000" class="col-10 col-md-6 col-lg-3 mb-4 sect_option1">
+               <div class="secv"><img src="images/medicine-chest-svgrepo-com.svg" width="90px" /> </div>
+                  <h3>Résultats de tests</h3>
+                  <p class="pt-5">Le patient peut recevoir ses résultats du test ou du consultation en temps réel ou aprés le consultation, en reppelant personne ne peut y accédés sauf le patient et son médecin traitant ...</p>
+             </div>
+
+            <div data-aos="fade-up" data-aos-duration="3000" class="col-10 col-md-6 col-lg-3 mb-4 sect_option2">
+              <div class="secv pt-2"><img src="images/medical-records-svgrepo-com.svg" width="70px"/></div>
+                  <h3>Historique des consultations</h3>
+                  <p class="pt-4"> On a va mis une systéme qui va permettre les patients de revoir leurs consultations de rendez vous passées avec leurs médecins en cas
+                                   ils les besoins. Ça va les aider non seulement de rappeler les consignes leurs médecins mais aussi de les aider a suivre leurs traitements correctement </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row pt-5">
+             <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                 <img class="img-fluid text-start " src="images/hij-removebg-preview.png" />
+             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 pt-5">
+                  <h2 class="" style="color:#141561; font-weight: bold;">Pilotez la transformation numérique de votre entreprise</h2>
+                  <p class="text-hero"> Notre objectif est de faciliter la communication en ligne entre le médecin et le patient grâce à une plateforme sécurisée et
+                                        robuste qui offre des services de consultation vidéo, de chat médical et de gestion des patients, en privilégiant
+                                        l'accessibilité et la sécurité des données l’expérience utilisateur et en facilitant l’accès à un hôpital digital qui
+                                        propose des services de médecine générale et de pédiatrie 24 heures sur 24 et 7 jours sur 7, ainsi qu’un annuaire médical
+                                        numérique de 3 000 spécialistes dans plus de 35 spécialités à la demande.
+                 </p>
+            </div>
+          </div>
+
+          <div class="row pt-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                  <h2 class="" style="color:#141561; font-weight: bold;">Votre partenaire technologique de santé digitale</h2>
+                  <p class="text-hero">Nous sommes votre partenaire technologique en matière de santé digitale, qui vous aide à numériser et à améliorer vos services
+                                      de santé. AKN MédiConnect est un produit 100% intéropérable qui s’intègre facilement à d’autres systèmes (APIs, SDKs, Webview).
+                                      Si vous le souhaitez, vous pouvez facilement l’incorporer dans votre site web, votre application mobile et le personnaliser avec votre marque.
+                  </p>
+            </div>
+           <div class="col-sm-12 col-md-6 col-lg-6 col-12"><img class="img-responsive " src="images/part.png" /></div>
+          </div>
+        </div>
+
+       <div style="margin: 80px" class="row g-0 bg-body-secondary position-relative justify-content-between">
+         <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-out-right">
+               <img src="images/tt.jpeg" class="w-100 h-100 img-thumbnail" alt="..." />
+         </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-out-left">
+               <h2 class="m-4">Pourquoi utiliser cette plateforme</h2>
+               <p class="ms-3">Cette plateforme améliore les conditions de travail : aujourd'hui, de plus en plus d'entreprises proposent à leurs salariés de
+                               consulter un médecin depuis leurs locaux, via un dispositif de consultation en ligne. De cette manière, nul besoin de s'absenter
+                               ou de poser un jour de congé pour consulter un professionnel de santé. AKN MédiConnect intervient dans l'amélioration du bien-être
+                               des salariés et des conditions de travail et d'autres.
+              </p>
+              <!--Lien de A propos-->
+            <button class="btn btn-primary ms-3 mb-2" type="button"><a href="A propos/apropos.php" class="text-decoration-none text-white fw-bold">Qui nous sommme</a> </button>
+          </div>
+        </div>
+      </section>
+      <!--Fin section des articles-->
+
+
+          <!--Section témoignage-->
+    <section class="m-5 pt-5 ">
+          <h2 class="text-center mt-5 mb-0">Témoignages</h2>
+    <div id="carouselExampleCaptions" class="carousel m-5 slide p-5 rounded-5 " style="background-color: #141561;" data-bs-ride="carousel" data-bs-interval="1500">
+
+     <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+            <img src="images/fti.jpg" class="m-auto rounded-circle" width="100" height="100" alt="...">
+            <h5 class="fw-bold text-white pb-2 mt-3">Fatima Ndiaye</h5>
+            <p class="text-white pb-2"> AKN MédiConnect est une plateforme de santé digitale qui facilite l'accès aux soins.</p>
+                      <!-- Étoiles -->
+                <div class="text-warning fs-4 mt-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+
+   
+        </div>
+     <div class="carousel-item text-center">
+         <img src="images/aiss.jpg" class="m-auto rounded-circle" width="100" height="100" alt="...">
+         <h5 class="fw-bold text-white pb-2 mt-3">Aïssatou Faye</h5>
+         <p class="text-white pb-2">AKN MédiConnect a transformé ma façon de consulter un médecin. Je recommande vivement !</p>
+                        <!-- Étoiles -->
+                <div class="text-warning fs-4 mt-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+
+  
+        </div>
+    <div class="carousel-item text-center">
+         <img src="images/ibr.jpg" class="m-auto rounded-circle" width="100" height="100" alt="...">
+         <h5 class="fw-bold text-white pb-2 mt-3">Ibrahima Diouf</h5>
+         <p class="text-white pb-2">AKN MédiConnect a révolutionné ma façon de consulter un médecin. Je suis très satisfait du service !</p>
+                      <!-- Étoiles -->
+                <div class="text-warning fs-4 mt-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+
+    
+    </div>
+    <div class="carousel-item text-center">
+        <img src="images/cc@.jpg" class="m-auto rounded-circle" width="100" height="100" alt="...">
+        <h5 class="fw-bold text-white pb-2 mt-3">Maïna Barry</h5>
+        <p class="text-white pb-2">AKN MédiConnect m'a permis de consulter un médecin sans me déplacer. Un service très pratique !</p>
+                    <!-- Étoiles -->
+              <div class="text-warning fs-4 mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+ 
+    </div>
+     <div class="carousel-item text-center">
+        <img src="images/5@.jpeg" class="m-auto rounded-circle" width="100" height="100" alt="...">
+        <h5 class="fw-bold text-white pb-2 mt-3">Masata Diack</h5>
+        <p class="text-white pb-2"> AKN MédiConnect est une plateforme de santé digitale qui me permet d'accéder facilement à des soins de qualité.</p>
+                       <!-- Étoiles -->
+                <div class="text-warning fs-4 mt-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+
+  </div>
+    
+      <div class="carousel-item text-center">
+        <img src="images/kha.jpg" class="m-auto rounded-circle" width="100" height="100" alt="...">
+          <h5 class="fw-bold text-white pb-2 mt-3">Khadim Diop</h5>
+          <p class="text-white pb-2">AKN MédiConnect m'a permis de consulter un médecin rapidement et facilement. Je suis très satisfaite du service !</p>
+                       <!-- Étoiles -->
+                <div class="text-warning fs-4 mt-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+
+
+    </div>
+
+     <div class="carousel-item text-center">
+        <img src="images/tem.jpg" class="m-auto rounded-circle " width="100" height="100" alt="...">
+        <h5 class="fw-bold text-white pb-2 mt-3">Mary Éléne </h5>
+        <p class="text-white pb-2">AKN MédiConnect m’a permis de trouver des médecins disponibles rapidement. Je recommande vivement !</p>
+                       <!-- Étoiles -->
+                <div class="text-warning fs-4 mt-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+
+
+    </div>
+   </div>
+ </section>
+<!--Section témognage-->
+
+<!-- Section de description avec un lien qui va nous l'améne sur la page contact-->
+ <section>
+          <div style="text-align: center; position: relative; top: 60px; z-index: 10"><img src="images/icono-1.svg " /></div>
+      <div style=" background-image: url(bac.jpg); margin: 0 20px; border-radius: 40px;">
+         <div class="solution bg-info opacity-75 text-center text-bold">
+            <div class="sl2">
+               <h3 class="">Votre solution</h3>
+               <p class=""> Nous vous aidons à identifier les services ou produits <br />
+                            dont vous avez besoin en fonction des besoins de votre <br />
+                            entreprise, hôpital ou clinique. Notre équipe vous <br />
+                            accompagne tout au long du processus de mise en place et <br />
+                            d’intégration.
+              </p>
+              <button class="btn btn-outline-primary bg-white  mt-4 p-2">
+                <a
+                  class="text-primary text-decoration-none"
+                  href="Page_de_contact/Page_de_contact.php"
+                  >Contactez-nous</a
+                >
+              </button>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--Fin Section de description avec un lien qui va nous l'améne sur la page contact-->
+
+
+  <!--Section rejoindre nous-->
+  <section class="docter" style="margin-top: 150px">
+      <div class="d-flex justify-content-around col-12" data-aos="zoom-out">
+        <div class="text-white">
+            <img src="images/pl.png" class="img-fluid" />
+            <span class="">PRÊT À REJOINDRE NOTRE ÉQUIPE ?</span>
+            <h2 class="text-danger">Vous êtes un developpeur ou un professionnel informatique</h2>
+        </div>
+
+          <div style="margin-top: 150px">
+            <button class="btn btn-outline-primary bg-white">
+              <a class="text-primary text-decoration-none" href="Rejoindre/Rejoindre_nous.php">REJOINDRE NOUS</a>
+            </button>
+          </div>
+      </div>
+   </section>
+     <!--Fin Section rejoindre nous-->
+ </main>
+ <!--Fin de section principale de notre page-->
+
+
+  <!--Partie pie de notre page-->
+  <footer class="bg-dark p-4 text-white row" style="padding-top: 100px">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+            <h1><a href="index.html"> AKN <br /><span class="text-danger">MédiConnect</span>
+               <img src="images/logo.png" style="width: 60px; height: 60px; border-radius: 100%"/></a>
+            </h1>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 lien-footer">
+            <h4>Services</h4>
+
+           <p> <a href="Téléconsult/Teleconsultation.php">Consultation en distance</a></p>
+           <p><a href="Gestion_de_patient/gestion.php">Gestion des patients</a></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 lien-footer">
+            <h4>AKN MédiConnect</h4>
+           <p><a href="A propos/apropos.php">A propos de nous</a></p>
+           <p><a href="Page_de_contact/Page_de_contact.php">Nous-contacts</a></p>
+           <p><a href="Rejoindre/Rejoindre_nous.php">Rejoindre AKN MédiConnect</a></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <h4>Réseaux sociaux</h4>
+          <div>
+            <a href="https://www.tiktok.com/" target="_blank"><img class="icon bg-white" src="images/tic-tac.png" alt="" /></a>
+            <a href="https://web.facebook.com/groups/1276574977336265" target="_blank"><img class="icon bg-white" src="images/facebook.png" alt="" /></a>
+            <a href="https://www.instagram.com/?flo=true" target="_blank"><img class="icon bg-white" src="images/instagram.png" alt="" /></a>
+            <a href="https://www.linkedin.com/company/aknm-connect" target="_blank"><img class="icon bg-white" src="images/linkedin (1).png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+        <hr class="text-dark fw-bolder" />
+      <div class="d-flex justify-content-between">
+        <div class="m-3">&copy 2025.AKN MédiConnect Repo LLC</div>
+          <div class="m-3">
+           <a style="text-decoration: none; margin-right: 10px; color: white" href="politique_de_condition/politique.php" class="lien-footer">Politique de confidentialité</a>
+           <a style="text-decoration: none; margin-right: 10px; color: white" href="Cookies/cookies.php" class="lien-footer">Politique de cookies</a>
+        </div>
+      </div>
+    </footer>
+ <!--FINPartie pie de notre page-->
+
+ <!--Section modal-->
+ <div class="modal" id="monModal" tabindex="-1">
+  <div class="modal-dialog modal-col-lg-8 col-12 col-md-6 col-lg-3 modal-dialog-centered" role="document ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-primary"> <i class="fa-solid fa-briefcase-medical text-danger"></i> Bienvenue sur  AKN MédiConnect</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body m-2 pt-3">
+        <p class="fw-bold">
+          Bienvenue sur la plateforme AKN MédiConnect !<br>
+          Notre solution de suivi médical en ligne vous permet de consulter vos dossiers, prendre rendez-vous, échanger avec des professionnels de santé et accéder à vos résultats en toute sécurité.<br>
+          Merci de votre confiance et bonne navigation sur notre espace santé digital.
+        </p>
+        <b class="fw-bold text-danger">NB : </b><span>Une fois vous rentrez sur nos interfaces de connexion ou inscription et vous voulez faire demi tours cliquez sur <b class="text-info"> le logo !</b></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Merci !</button>
+     
+      </div>
+    </div>
+  </div>
+</div>
+<!--FinSection modal-->
+
+<!-- Bouton -->
+<button onclick="scrollToTop()" id="backToTopBtn" title="Retour en haut" class=""><i class="fa-duotone fa-solid fa-arrow-up fw-bold"></i></button>
+
+
+
+<!--Scripts d'animation,bootstrap et notre page -->
+     <script src="JS/Accueil.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+* {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, #3A7BD5 0%, #00D2FF 100%);
+}
+
+.formu {
+  display: flex;
+  justify-content: center;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  background-image: url("");
+  background-size: cover;
+   Pour couvrir tout l'élément
+}
+
+*/
+
+.notifcation-tab {
+  display: none;
+  position: absolute;
+  right: 7px;
+  top: 100px;
+  width: 300px;
+  border: 1px solid #ccc;
+  height: 400px;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.userpicture {
+  border-radius: 100%;
+}
+
+.profi {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 80px;
+  height: 290px;
+  width: 250px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.border-0 {
+  width: 100%;
+  cursor: text;
+  color: white;
+
+}
+
+.border-0:hover {
+  background-color: gainsboro;
+
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px auto;
+  text-align: center;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+}
+
+th {
+  padding: 10px;
+
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.container-form {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.Formulair {
+  margin: 100px 150px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px lightblue;
+  padding-bottom: 150px;
+}
+
+select,
+option {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  outline: none;
+}
+
+.required {
+  color: red;
+}
+
+.dysl .form-group {
+  width: 500px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+.bnt {
+  padding: 8px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 500px;
+}
+
+.bnt:hover {
+  background-color: red;
+}
+
+/* footer {
+  padding: 0px;
+  width: 100%;
+}
+ */
+/* footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.iconn {
+  width: 35px;
+  margin: 40px 8px;
+} */

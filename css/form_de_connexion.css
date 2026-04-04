@@ -1,0 +1,154 @@
+ * {
+     font-weight: bold;
+     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+     text-decoration: none;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #fff;
+ }
+
+ .container1 {
+     margin: 100px auto;
+     width: 80%;
+     height: 30vw;
+     border-radius: 20px;
+     background-color: #3A7BD5;
+ }
+
+ .Formulair {
+     width: 300px;
+     height: 37vw;
+     box-shadow: 10px 10px 20px black;
+     margin-top: -40px;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+
+ @media screen and (max-width: 1190px) and (min-width: 1096px) {
+     .container1 {
+         height: 32vw;
+     }
+
+     .Formulair {
+         height: 40vw;
+     }
+ }
+
+ @media screen and (max-width: 1096px) and (min-width: 990px) {
+     .container1 {
+         height: 35vw;
+     }
+
+     .Formulair {
+         height: 45vw;
+     }
+ }
+
+ @media screen and (max-width: 990px) and (min-width: 865px) {
+     .container1 {
+         height: 38vw;
+         width: 100%;
+     }
+
+     .Formulair {
+         height: 50vw;
+     }
+ }
+
+ @media screen and (max-width: 865px) and (min-width: 752px) {
+     .container1 {
+         height: 46vw;
+         width: 100%;
+     }
+
+     .Formulair {
+         height: 57vw;
+     }
+ }
+
+ @media screen and (max-width: 752px) and (min-width: 655px) {
+     .container1 {
+         height: 52vw;
+         width: 100%;
+     }
+
+     .Formulair {
+         height: 65vw;
+     }
+ }
+
+ @media screen and (max-width: 655px) and (min-width: 575px) {
+     .container1 {
+         height: 62vw;
+         width: 100%;
+     }
+
+     .Formulair {
+         height: 75vw;
+         width: 280px;
+     }
+ }
+
+ @media screen and (max-width: 575px) and (min-width: 520px) {
+     .container1 {
+         height: 64vw;
+         width: 90%;
+     }
+
+     .Formulair {
+         height: 79vw;
+         width: 280px;
+     }
+ }
+
+ @media screen and (max-width: 520px) and (min-width: 442px) {
+     .container1 {
+         height: 75vw;
+         width: 90%;
+     }
+
+     .Formulair {
+         height: 95vw;
+         width: 273px;
+     }
+ }
+
+ @media screen and (max-width: 445px) and (min-width: 300px) {
+     .container1 {
+         height: 88vw;
+         width: 80%;
+     }
+
+     .Formulair {
+         height: 110vw;
+         width: 265px;
+     }
+ }
+
+ .form-group input {
+     width: 100%;
+     padding: 8px;
+     border: 1px solid #007bff;
+     border-radius: 4px;
+     outline: none;
+ }
+
+ .form-group {
+     margin-bottom: 17px;
+ }
+
+ button {
+     margin-bottom: 20px;
+ }
+
+ .text-white {}

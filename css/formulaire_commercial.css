@@ -1,0 +1,103 @@
+  * {
+      font-weight: bold;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      text-decoration: none;
+      list-style: none;
+  }
+
+  body {
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      background-image: url("");
+      background-size: cover;
+      /* Pour couvrir tout l'élément */
+  }
+
+  .container {
+      padding-top: 100px;
+      padding-bottom: 150px;
+      margin: auto;
+  }
+
+  .Formulair {
+      border-radius: 20px;
+      box-shadow: 10px 10px 20px lightblue;
+      margin: auto;
+      width: 80%;
+  }
+
+  .contact-form {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .form-group {
+      margin-bottom: 15px;
+  }
+
+  .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+  }
+
+  .form-group input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #007bff;
+      border-radius: 4px;
+      outline: none;
+  }
+
+  .specil textarea {
+      outline: none;
+      width: 100%;
+      height: 10vw;
+      margin: auto;
+      margin-bottom: 20px;
+  }
+
+  .specil,
+  input {
+      margin: auto;
+      width: 86%;
+  }
+
+  .required {
+      color: red;
+  }
+
+  .dysl {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .dysl .form-group {
+      width: 35%;
+  }
+
+  button {
+      padding: 15px;
+      background-color: #3A7BD5;
+      border: none;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 160px;
+      margin: auto;
+  }
+
+  button:hover {
+      background-color: #007bff;
+  }
+
+  footer a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .icon {
+      width: 35px;
+      margin: 40px 8px;
+  }
